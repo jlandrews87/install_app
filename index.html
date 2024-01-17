@@ -1,78 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <style>
-            @import url("https://fonts.google.com/specimen/Comfortaa");
-            body {
-              font-family: 'Comfortaa';
-              text-align: center;
-              background-color: #FA8072;
-              background: #FA8072;
-              color: #3F00FF;
-              font-size: xx-large;
-            }
-            .italics {
-                font-style: italic;
-            }
-            select {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -webkit-padding-end: 20px;
-  -moz-padding-end: 20px;
-  -webkit-padding-start: 2px;
-  -moz-padding-start: 2px;
-  background-color: #F07575; /* Fallback color if gradients are not supported */
-  background-image: url(../images/select-arrow.png), -webkit-linear-gradient(top, #E5E5E5, #F4F4F4); /* For Chrome and Safari */
-  background-image: url(../images/select-arrow.png), -moz-linear-gradient(top, #E5E5E5, #F4F4F4); /* For old Firefox (3.6 to 15) */
-  background-image: url(../images/select-arrow.png), -ms-linear-gradient(top, #E5E5E5, #F4F4F4); /* For pre-releases of Internet Explorer  10*/
-  background-image: url(../images/select-arrow.png), -o-linear-gradient(top, #E5E5E5, #F4F4F4); /* For old Opera (11.1 to 12.0) */
-  background-image: url(../images/select-arrow.png), linear-gradient(to bottom, #E5E5E5, #F4F4F4); /* Standard syntax; must be last */
-  background-position: center right;
-  background-repeat: no-repeat;
-  border: 1px solid #AAA;
-  border-radius: 2px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
-  color: #555;
-  font-size: inherit;
-  margin: 0;
-  overflow: hidden;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-align: center;
-}
-            option {
-                font-family: 'Comfortaa';
-                background-color: #333333;
-                color: #DDDDDD
-            }
-          </style>
-        <link rel="stylesheet"
-          href="https://fonts.google.com/specimen/Comfortaa">
-        <style></style>
-        <title></title>
+        <meta charset="UTF-8">
+        <title>StairWorx Install Application</title>
+
+        <link rel="stylesheet" href="./css/styles.css">
         <script></script>
     </head>
     <body>
-        <h1>StairWorx Installation App</h1>
-        <h2 class="italics">Staying One Step Ahead</h2>
-        <div class = "Sales Rep Name">
-        <label for="Sales Rep Name">Select Whose Projects You'd Like to See</label>
-        <br>
-        <select name="Sales Rep Name" id="Sales Rep Name">
-            <option value="Miles">Miles</option>
-            <option value="Dave">Dave</option>
-            <option value="Katie">Katie</option>
-            <option value="All">All</option>
-        </select>
+        <div class="center">
+            <h1>StairWorx Installation App</h1>
+            <h2><em>Staying One Step Ahead</em></h2>
         </div>
-        <div class = "Installer Name"></div>
-            <label for="Installer Name">Select Whose Projects You'd Like to See</label>
+
+        <div class="left">
+            <label for="sales_rep">Select A Sales Rep</label>
+            <!--br-->
+            <select name="sales_rep" id="sales_rep">
+                <option value="Miles">Miles</option>
+                <option value="Dave">Dave</option>
+                <option value="Katie">Katie</option>
+                <option value="All">All</option>
+            </select>
             <br>
-            <select name="Installer Name" id="Installer Name">
+            <label for="installer_name">Select An Installer</label>
+            <!--br-->
+        <select name="installer_name" id="installer_name">
                 <option value="Jim Foley">Jim Foley</option>
                 <option value="Chris Taylor">Chris Taylor</option>
                 <option value="Chris Reed">Chris Reed</option>
@@ -86,5 +39,6 @@
                 <option value="Frans DeRoo">Frans DeRoo</option>
                 <option value="Chris Braga">Chris Braga</option>
         </select>
+        </div>
     </body>
 </html>
