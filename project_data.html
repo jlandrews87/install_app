@@ -1,89 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            @import url("https://fonts.google.com/specimen/Comfortaa");
-            body {
-              font-family: 'Comfortaa';
-              text-align: center;
-              background-color: #FA8072;
-              background: #FA8072;
-              color: #3F00FF;
-              font-size: xx-large;
-            }
-            .italics {
-                font-style: italic;
-            }
-
-            table, th {
-                border: 1px solid black;
-                border-collapse: collapse;
-                text-align: left;
-                background-color: #DDDDDD;
-                border-bottom: 3px solid black;
-            }
-
-            table, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-                text-align: left;
-                font-weight: 300;
-                background-color: #FFFFFF;
-            }
-
-            #projectInformation {
-                border: 1px solid black;
-                border-collapse: collapse;
-                color:#000000;
-                font-weight: 900;
-                font-size:25px;
-                width: 80%;
-                margin: auto;
-            }
-
-            .cust_name {
-                width: 20%;
-                text-align:center;
-            }
-            .proj_add {
-                width: 52.055%;
-                text-align: center;
-            }
-            .proj_start {
-                width: 15%;
-                text-align: center;
-            }
-            .proj-fin {
-                width: 15%;
-                text-align: center;
-            }
-
-          </style>
+        
         <link rel="stylesheet"
-          href="https://fonts.google.com/specimen/Comfortaa">
-        <style></style>
-        <title></title>
+          href="./css/styles.css">
+        
+        <title>Project Data</title>
         <script></script>
     </head>
     <body>
-        <h1>StairWorx Installation App</h1>
-        <h2 class="italics">Staying One Step Ahead</h2>
-       
-        <div id="projectInformation" class = "Customer Name">
+        <div class="center">
+            <h1>StairWorx Installation App</h1>
+            <h2 class="italics">Staying One Step Ahead</h2>
+        </div>    
+        <div class="left">
             <table>
                 <tr>
-                  <th class="cust_name">Customer Name</th>
-                  <th class="proj_add">Project Address</th>
-                  <th class="proj_start">Start Date</th>
-                  <th class="proj-fin">Est Comp Date</th>
+                    <th class="cust_name">Customer Name</th>
+                    <th class="proj_add">Project Address</th>
+                    <th class="proj_start">Start Date</th>
+                    <th class="proj-fin">Est Comp Date</th>
                 </tr>
                 <tr>
-                  <td>Jemin Thakkar</td>
-                  <td>123 Test Street</td>
-                  <td>12/4/23</td>
-                  <td>1/20/24</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td class="date1"><input type="date"></td>
+                    <td class="date1"><input type="date"></td>
                 </tr>
-              </table>
+            </table>
         </div>
     </body>
 </html>

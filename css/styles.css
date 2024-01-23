@@ -1,19 +1,104 @@
-body {
-    background-attachment: fixed;
-    background-image: linear-gradient(to bottom left, #2200AA, #333333);
-    display: block;
-    width: 500px; 
-    margin: 0 auto;
-    text-align: center;
-    color: #CCDDEE;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
+/*StairWorx Colors: #002a54,#8a2529,#333333,#f0f0f0,#a8a8a8,#104759*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.center {
+.menu-container {
+    background-color: #104759;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    background-color: #104759;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.menu:hover {
+    background-color: #002a54;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.signup {
+    margin-left: auto;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.logo-container {
+    color: #f0f0f0;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600px;
+    font-style: italic;       
+}
+
+.logo-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+}
+
+.logo-text {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600px;
+    font-style: italic;       
+}
+
+.greeting {
+    font-style: italic;
+    margin-top: 20px;
+    color: salmon;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.input {
+    margin-top: 20px;
+    color: #f0f0f0;
+    font-size: 25px;
     text-align: center;
 }
 
-.left {
-    text-align: left;
-    margin-left: 100px;
+#user_type {
+    margin: 5px 0px 15px 0px;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#user_name {
+    margin: 5px 0px 15px 0px;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+}
+
+input[type='password'] {
+    font-family: Verdana;
+    margin: 5px 0px 15px 0px;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
 }
