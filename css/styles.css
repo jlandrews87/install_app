@@ -10,10 +10,11 @@
     color: #f0f0f0;
     background-color: #333333;
     display:flex;
-    width: 361.39;
-    height: 110px;
-    justify-content: center;
-    font-size: 30px;
+    flex-direction: column;
+    height: 128px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
     text-align: center;
     font-weight: 600px;
     font-style: italic;
@@ -21,46 +22,26 @@
 }
 
 .logo-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: ;
     height: 80px;
     width: 320px;
-    position:fixed;
-    padding-top: 10px;
 }
 
 .logo-text {
-    display: flex;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 600px;
-    font-style: italic;
-    position: fixed;
-    padding-top: 75px;      
+    padding-bottom: 8px;     
 }
 
 .menu-container {
-    background-color: #104759;
+    background-color: #333333;
     display: flex;
-    justify-content: center;
-}
-
-.menu {
-    background-color: #104759;
-    width: 800px;
-    height: 30px;
-    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-/*.menu:hover {
-    background-color: #002a54;
-    width: 750px;
+.menu {
+    width: 800px;
     display: flex;
-    padding: 5px;
-}*/
+    gap: 8px;
+}
 
 .date {
     color: #f0f0f0;
@@ -79,8 +60,9 @@
 .view_schedule {
     color: #f0f0f0;
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
     align-items: center;
+    margin-left: auto;
     height: 30px;
     font-size: 20px;
     padding: 10px;
@@ -93,7 +75,7 @@
 .create_work_order {
     color: #f0f0f0;
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
     align-items: center;
     height: 30px;
     font-size: 20px;
@@ -107,7 +89,7 @@
     color: salmon;
     font-weight: bolder;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
     height: 30px;
     font-size: 20px;
@@ -123,20 +105,36 @@
     background-color: #104759;
     justify-content: center;
     width: 800px;
-    height:auto;
+    height:400px;
     margin: auto;
-    padding-bottom: 20px;
 }
 
 .input {
-    margin-top: 20px;
     color: #f0f0f0;
     font-size: 25px;
     text-align: center;
+    padding: 8px;
 }
 
-.signup {
-    margin-left: auto;
+#user_type {
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#user_name {
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type='password'] {
+    font-family: Verdana;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .greeting {
@@ -147,28 +145,4 @@
     font-weight: bolder;
     text-align: center;
     margin-bottom: -10px;
-}
-
-
-
-#user_type {
-    margin: 5px 0px 15px 0px;
-    width: 300px;
-    font-size: 25px;
-    text-align: center;
-}
-
-#user_name {
-    margin: 5px 0px 15px 0px;
-    width: 300px;
-    font-size: 25px;
-    text-align: center;
-}
-
-input[type='password'] {
-    font-family: Verdana;
-    margin: 5px 0px 15px 0px;
-    width: 300px;
-    font-size: 25px;
-    text-align: center;
 }
