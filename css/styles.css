@@ -1,112 +1,67 @@
 /*StairWorx Colors: #002a54,#8a2529,#333333,#f0f0f0,#a8a8a8,#104759*/
 
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.header {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
 .logo-container {
+    display: flex;
+    flex-direction: column;
     color: #f0f0f0;
     background-color: #333333;
-    display:flex;
-    flex-direction: column;
-    height: 128px;
-    justify-content: space-around;
     align-items: center;
     font-size: 25px;
     text-align: center;
     font-weight: 600px;
     font-style: italic;
-    padding-top: 10px;       
 }
 
 .logo-picture {
-    height: 80px;
-    width: 320px;
-}
-
-.logo-text {
-    padding-bottom: 8px;     
-}
-
-.menu-container {
-    background-color: #333333;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.menu {
-    width: 800px;
-    display: flex;
-    gap: 8px;
+    height: 87px;
+    width: 400px;
 }
 
 .date {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
     color: #f0f0f0;
+}
+
+.body {
+    background-color: #f0f0f0;
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.menu-container {
+    color: #002a54;
+}
+
+.menu-item {
     height: 30px;
     font-size: 20px;
-    padding: 10px;
 }
 
-.date:hover {
-    background-color: #002a54;
-}
-
-.view_schedule {
+.menu-item:hover {
+    background-color: #333333;
     color: #f0f0f0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: auto;
-    height: 30px;
-    font-size: 20px;
-    padding: 10px;
-}
-
-.view_schedule:hover {
-    background-color: #002a54;
-}
-
-.create_work_order {
-    color: #f0f0f0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 30px;
-    font-size: 20px;
-    padding: 10px;
-}
-
-.create_work_order:hover {
-    background-color: #002a54;
-}
-.logout {
-    color: salmon;
-    font-weight: bolder;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 30px;
-    font-size: 20px;
-    padding: 10px;
-}
-
-.logout:hover {
-    background-color: #002a54;
 }
 
 .signup-container {
     display: flex;
     background-color: #104759;
-    justify-content: center;
-    width: 800px;
     height:400px;
-    margin: auto;
 }
 
 .input {
