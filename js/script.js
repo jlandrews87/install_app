@@ -1,5 +1,3 @@
-//Experiment here. Take out comments - make this an actual deal.//
-
 const installerNames = [
     "Chris Reed",
     "Jim Foley",
@@ -17,7 +15,14 @@ const installerNames = [
     "Radu"
 ];
 
-let installerName = installerNames[4];
-console.log(installerName);
+const chrisReed = {
+    firstName:"Chris",
+    lastName:"Reed",
+    companyName:"Chris Reed",
+    //Base speed is 750 - 600 for slower, 900 for faster//
+    speedVariable: 600,
+};
 
-console.log(installerNames);
+const newConstructionInstallers = installerNames.slice(0,3);
+
+console.log(newConstructionInstallers);
