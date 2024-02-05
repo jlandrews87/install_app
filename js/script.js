@@ -14,8 +14,23 @@ const installerNames = [
     "James Gee",
     "Radu"
 ];
+/*const installer = [
+    installer.firstName,
+    installer.lastName,
+    installer.workersCompDate,
+    installer.phoneNumber,
+    installer.companyName,
+    //Base speed 750 - 600 for slower, 900 for faster//
+    installer.speedVariable,
+    installer.tier,
+    installer.permissedInstallType,
+    installer.installationPerformed,
+    installer.installationError,
+    installer.installationComplaint,
+    installer.payout
+]
 
-const installerName = installerNames [];
+const installerName = installerNames [i];
 
 const chrisReed = {
     firstName:"Chris",

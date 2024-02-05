@@ -144,7 +144,7 @@ input[type='password'] {
 }
 
 table.calendar {
-    border: solid 2px #333333;
+
 }
 
 .calendar-header-row {
@@ -159,11 +159,8 @@ table.calendar {
     font-weight: 300;
     display: flex;
     flex-direction: column;
-    border: solid;
     flex-grow: 1;
     justify-content: center;
-    border-width: 0px 1px;
-    border-color: #333333;
     text-align: center;
     padding: 10px 0;;
 }
@@ -178,11 +175,12 @@ table.calendar {
     font-size: 20px;
     font-weight: 300;
     display: flex;
-    border: solid;
     flex-grow: 1;
     justify-content: space-between;
-    border-width: 0px 1px;
-    border-color: #333333;
     text-align: center;
     padding: 10px 0;;
+}
+
+td.weekly-calendar-customer-name {
+
 }
