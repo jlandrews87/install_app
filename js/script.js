@@ -15,6 +15,8 @@ const installerNames = [
     "Radu"
 ];
 
+const installerName = installerNames [];
+
 const chrisReed = {
     firstName:"Chris",
     lastName:"Reed",

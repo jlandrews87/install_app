@@ -1,0 +1,52 @@
+
+What is or could be "Installer":
+    Name [0]
+    Company Name (If not name) [1]
+    Phone Number [2]
+    Wrkr's Comp Date [3]
+    Installer Speed [4]
+    Installer Tier [5]
+    Permissed installation types [6]
+    Installations performed [7]
+    Verified Installation Errors [9]
+    Verified Customer Complaints [10]
+    Payouts [10]
+    Schedule [11]
+    Permissed Access
+
+Installers:
+    "Chris Reed",
+    "Jim Foley",
+    "Chris Taylor",
+    "Dayann",
+    "Leno",
+    "Ernesto",
+    "Joe Nelson",
+    "Bryan Haddrill",
+    "Doug Stewart",
+    "Memmo",
+    "Frans",
+    "Chris Braga",
+    "James Gee",
+    "Radu"
+
+What interfaces with "Installer"?
+    Salesperson Name
+    Salesperson Phone Number
+    Customer Name
+    Point of Contact (If not customer)
+    Point of Contact Phone Number
+    Installation Work Order
+    Installation Estimate Number
+    Installation Type
+    Installation Address
+    Installation Payout
+    Installation Start Date
+
+
+What is or could be "Customer"?
+    Orders
+
+Customers: (Array built as used)
+
+What interfaces with "Customer"?
