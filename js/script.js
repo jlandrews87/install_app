@@ -14,6 +14,9 @@ const installerNames = [
     "James Gee",
     "Radu"
 ];
+
+/*These are all ways to save installers as objects/arrays
+
 /*const installer = [
     installer.firstName,
     installer.lastName,
@@ -42,4 +45,4 @@ const chrisReed = {
 
 const newConstructionInstallers = installerNames.slice(0,3);
 
-console.log(newConstructionInstallers);
+console.log(newConstructionInstallers);*/

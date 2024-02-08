@@ -7,12 +7,27 @@
 </head>
 <body>
     <div class = "wo-head">
+        <img src="./images/StairWorx_Black_Logo.png" alt="">
         INSTALLATION WORK ORDER
     </div>
-    <div class = "top-line">
-        <div class = "install-type">
-            <label for="installlation-type">Installation Type</label>
-            <select name="installation-type" id="install-type">
+    <div class="wo-body">
+        <div class = "top-line">
+            <div class="sales-rep">
+            <label for="sales-rep-selection" class="label">Sales Rep:</label>
+                <select name="sales-rep-selection" id="sales-rep-selection">
+                <option value="" selected></option>
+                <option value="Dave">Dave</option>
+                <option value="Katie">Katie</option>
+                <option value="Miles">Miles</option>
+                </select>
+            </div>
+            <div class="estimate">
+            <label for="estimate-number" class="label">Estimate:</label>
+                <input type="text" placeholder="12345">
+            </div>
+            <div class="installation-type">
+            <label for="installlation-type-selection" class="label">Install Type:</label>
+                <select name="installation-type-selection" id="install-type-selection">
                 <option value="" selected></option>
                 <option value="remodel">Remodel</option>
                 <option value="newConstruction">New Construction</option>
@@ -21,32 +36,21 @@
                 <option value="Exterior">Exterior</option>
                 <option value="Landing">Landing</option>
                 <option value="Other">Other</option>
-            </select>
-        </div>
-        <div class="sales-rep">
-            <label for="sales-rep">Sales Rep</label>
-            <select name="sales-rep" id="sales-rep">
-                <option value="" selected></option>
-                <option value="Dave">Dave</option>
-                <option value="Katie">Katie</option>
-                <option value="Miles">Miles</option>
-            </select>
-        </div>
-        <div class="estimate-number">
-            <label for="estimate-number">Estimate</label>
-                <input type="text" placeholder="12345">
-        </div>
-    </div>
-    <div class="point-of-contact">
-        <label for="pointOfContactName">Name of Contact</label>
-            <input type="text" placeholder="Name">
-        <label for="pointOfContactNumber">Number of Contact</label>
-            <input type="text" placeholder="(123) 456-7890">
-    </div>
-            <label for="installationAddress">Installation Address</label>
-                <input type="text" placeholder="123 Test St. (Cumming)">
+                </select>
             </div>
         </div>
+        <div class="second-line">
+            <div class="point-of-contact-name">
+                <label for="contactName" class="label">Name of Contact</label>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="point-of-contact-number">
+                <label for="pointOfContactNumber" class="label">Number of Contact</label>
+                <input type="text" placeholder="(123) 456-7890">
+            </div>
+        </div>
+            <label for="installationAddress">Installation Address</label>
+                <input type="text" placeholder="123 Test St. (Cumming)">
     <div class="install-details">
         <label for="project-overview" class="project-overview">Installation Overview</label>
             Summary of the work being performed at this install

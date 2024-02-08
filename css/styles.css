@@ -1,11 +1,12 @@
 /*StairWorx Colors: #002a54,#8a2529,#333333,#f0f0f0,#a8a8a8,#104759*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Comfortaa, sans-serif;
+    font-family: Oswald, Comfortaa, sans-serif;
 }
 
 .header,
@@ -46,7 +47,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 800;
+    font-weight: 500;
+    color: salmon;
 }
 
 .menu-item {
@@ -137,50 +139,58 @@ input[type='password'] {
     margin-bottom: -10px;
 }
 
+.calendar-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .weekly-calendar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    table-layout: fixed;
+    width: 900px;
+    border: solid 2px #333333;
+    border-collapse: collapse;
 }
 
-table.calendar {
-
-}
-
-.calendar-header-row {
-    display: flex;
-    flex-shrink: 0;
-    justify-content: space-between;
-    align-items: stretch;
-}
-
-.weekday-header {
+.days {
     font-size: 12px;
     font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 0;;
 }
 
 .weekly-date {
     font-size: 20px;
     font-weight: 800;
-    padding-top: 10px;
 }
-
-.weekly-calendar-customer-name {
+/*
+.weekday-header {
+    display: flex;
+    flex: 1 1 180px;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 5px 5px 20px;
+}
+*/
+.weekly-date {
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+}
+/*
+.weekly-calendar-data {
     font-size: 20px;
     font-weight: 300;
     display: flex;
     flex-grow: 1;
-    justify-content: space-between;
-    text-align: center;
-    padding: 10px 0;;
+    justify-content: center;
+    padding: 10px 5px 5px 20px;
+    width: 900px;
 }
 
 td.weekly-calendar-customer-name {
-
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    flex: 1 1 180px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 0;
 }
