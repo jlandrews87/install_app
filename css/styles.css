@@ -23,15 +23,18 @@ body {
     color: #f0f0f0;
     background-color: #333333;
     align-items: center;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 600px;
-    font-style: italic;
 }
 
 .logo-picture {
     height: 87px;
     width: 400px;
+}
+
+.logo-text {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: -6px;
 }
 
 .menu-container {
